@@ -14,8 +14,8 @@ _View space is right-handed; camera looks down −Z._
 ## 1) Project onto the near plane (similar triangles)
 
 $$
-x_n = -n \cdot \frac{x_v}{z_v},\qquad
-y_n = -n \cdot \frac{y_v}{z_v}
+x_p = -n \cdot \frac{x_v}{z_v},\qquad
+y_p = -n \cdot \frac{y_v}{z_v}
 $$
 
 Compute:
