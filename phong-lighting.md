@@ -13,9 +13,8 @@ Fill in all known values.
 * Camera/eye position $C = (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm})$
 * Light position $L_{pos} = (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm})$
 * Light intensity/color $I_L = (R: \rule{1cm}{0.15mm}, G: \rule{1cm}{0.15mm}, B: \rule{1cm}{0.15mm})$
-  (Use linear color space values in [0,∞). If you have sRGB, convert to linear first.)
-* Material diffuse reflectance $k_d = (R: \rule{1cm}{0.15mm}, G: \rule{1cm}{0.15mm}, B: \rule{1cm}{0.15mm})$
-* Material specular reflectance $k_s = (R: \rule{1cm}{0.15mm}, G: \rule{1cm}{0.15mm}, B: \rule{1cm}{0.15mm})$
+* Material diffuse coefficient $k_d = (R: \rule{1cm}{0.15mm}, G: \rule{1cm}{0.15mm}, B: \rule{1cm}{0.15mm})$
+* Material specular coefficient $k_s = (R: \rule{1cm}{0.15mm}, G: \rule{1cm}{0.15mm}, B: \rule{1cm}{0.15mm})$
 * Shininess/exponent $\alpha = \rule{1cm}{0.15mm}$
 
 ---
@@ -30,8 +29,6 @@ Fill in all known values.
 ---
 
 ## 2) Normalize
-
-Compute unit vectors (mark magnitudes too):
 
 * $|\vec{L}| = \rule{1cm}{0.15mm}; ; \hat{L} = \dfrac{\vec{L}}{|\vec{L}|} = (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm})$
 * $|\vec{V}| = \rule{1cm}{0.15mm}; ; \hat{V} = \dfrac{\vec{V}}{|\vec{V}|} = (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm})$
