@@ -27,8 +27,6 @@ Fill in all known values.
 2. **View direction** (from fragment to camera):
    $\vec{V} = C - P = (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm})$
 
-> ✅ Check: Are $\vec{L}$ and $\vec{V}$ **non-zero**? If zero, re-check inputs.
-
 ---
 
 ## 2) Normalize
@@ -38,8 +36,6 @@ Compute unit vectors (mark magnitudes too):
 * $|\vec{L}| = \rule{1cm}{0.15mm}; ; \hat{L} = \dfrac{\vec{L}}{|\vec{L}|} = (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm})$
 * $|\vec{V}| = \rule{1cm}{0.15mm}; ; \hat{V} = \dfrac{\vec{V}}{|\vec{V}|} = (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm})$
 * $|\vec{N}| = \rule{1cm}{0.15mm}; ; \hat{N} = \dfrac{\vec{N}}{|\vec{N}|} = (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm})$
-
-> ✅ Check: $|\hat{N}|$ should be ≈1.0. If your normal is already normalized from the mesh/shader, record 1.0 here.
 
 ---
 
@@ -54,7 +50,6 @@ Diffuse color (per channel):
 
 * $C_{diff} = k_d \cdot I_L \cdot lambert$
   $= (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm})$
-
 
 ---
 
