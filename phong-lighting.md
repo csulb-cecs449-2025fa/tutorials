@@ -62,7 +62,7 @@ Diffuse color (per channel):
 
 1. Build the **reflection** of $-\hat{L}$ about $\hat{N}$:
 
-   $\hat{R} = \operatorname{reflect}(-\hat{L}, \hat{N})$
+   $\hat{R} = \mathrm{reflect}(-\hat{L}, \hat{N})$
    $= 2(\hat{N} \cdot (-\hat{L}))\hat{N} - (-\hat{L})$
    $= (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm})$
 
