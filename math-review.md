@@ -241,8 +241,8 @@ Let
 $$
 M =
 \begin{bmatrix}
-1 & 0 & 0 \
-0 & 2 & 0 \
+1 & 0 & 0 \\
+0 & 2 & 0 \\
 0 & 0 & 1
 \end{bmatrix}
 $$
@@ -277,7 +277,6 @@ Matrix multiplication is **not commutative**.
 ### 3.4 Inverses (Conceptual)
 
 1. What does it mean for a matrix to have an inverse?
-2. In graphics, when might you want to use an inverse transformation?
 
 ---
 
