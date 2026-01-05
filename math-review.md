@@ -4,8 +4,6 @@ Yes, I used an AI (GPT 5.2) to generate this document, and then edited it by han
 
 ## Math Readiness Worksheet
 
-**Due:** Beginning of next class
-
 **Purpose:** This worksheet reviews the math concepts you will use throughout this course.
 
 It is not a test — it is meant to help you identify what you already know and what you should review.
@@ -18,7 +16,6 @@ You are expected to **show your work** where appropriate.
 
 * You may use notes, textbooks, or online resources.
 * Calculators are allowed.
-* If a problem feels unfamiliar, try it anyway — that’s useful information.
 * At the end of each section, reflect briefly on your confidence.
 
 ---
