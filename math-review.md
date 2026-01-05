@@ -1,5 +1,7 @@
 # 3D Computer Graphics
 
+Yes, I used an AI (GPT 5.2) to generate this document, and then edited it by hand.
+
 ## Math Readiness Worksheet
 
 **Due:** Beginning of next class
