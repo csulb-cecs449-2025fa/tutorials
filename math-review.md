@@ -319,7 +319,7 @@ $$
 
 ### 4.2 Normalizing an interval
 
-In graphics, we often start with a value $x$ that lies in an interval $[a, b]$, that we want to move to an equivalent value in a different interval $[c, d]$. For example, $x=5$ is halfway in the interval $[0,10]$; the equivalent value in the interval $[6, 10]$ is $x=8$. This is called linear interpolation.
+In graphics, we often start with a value $x$ that lies in an interval $[a, b]$, that we want to move to an equivalent value in a different interval $[u, v]$. For example, $x=5$ is halfway in the interval $[0,10]$; the equivalent value in the interval $[6, 10]$ is $x=8$. This is called linear interpolation.
 
 To use linear interpolation, we first convert $x$ into a parameter $t$ in $[0, 1]$. This process is called normalization.
 
