@@ -3,7 +3,9 @@
 ## Math Readiness Worksheet
 
 **Due:** Beginning of next class
+
 **Purpose:** This worksheet reviews the math concepts you will use throughout this course.
+
 It is not a test — it is meant to help you identify what you already know and what you should review.
 
 You are expected to **show your work** where appropriate.
