@@ -340,9 +340,7 @@ b) $x = 3$, $a = 1$, $b = 5$
 
 Linear interpolation (lerp) finds a point $x$ that is $t$ distance between values $u$ and $v$, given the definition of $t$ from the previous section.
 
-$$
-\text{lerp}(u, v, t) = (1 - t)u + t\cdot v
-$$
+$$ \text{lerp}(u, v, t) = (1 - t)u + t\cdot v $$
 
 1. Compute:
 
