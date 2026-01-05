@@ -323,7 +323,7 @@ In graphics, we often start with a value $x$ that lies in an interval $[a, b]$, 
 
 To use linear interpolation, we first convert $x$ into a parameter $t$ in $[0, 1]$. This process is called normalization.
 
-$$ 𝑡 = \frac {𝑥 − a}{b - a} $$​
+$$t = \frac {x − a}{b - a}$$​
 
 
 This value of $t$ represents where $x$ lies between $a$ and $b$. $t = 0$ means that $x$ is exactly at $a$; $t=1$ means that $x$ is at $b$; $t=0.5$ means that $x$ is halfway from $a$ to $b$.
