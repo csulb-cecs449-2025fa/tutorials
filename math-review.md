@@ -1,8 +1,8 @@
-# 3D Computer Graphics
-
-Yes, I used an AI (GPT 5.2) to generate this document, and then edited it by hand.
+# CECS 449 Computer Graphics
 
 ## Math Readiness Worksheet
+
+Yes, I used an AI (GPT 5.2) to generate this document, and then edited it by hand.
 
 **Purpose:** This worksheet reviews the math concepts you will use throughout this course.
 
