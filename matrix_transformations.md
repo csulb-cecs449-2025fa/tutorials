@@ -119,12 +119,15 @@ Given:
 $$
 F=normalize\left(C-At\right)
 $$
+
 $$
 R=cross(F, \left<0,1,0\right>)
 $$
+
 $$
 U=cross(F, R)
 $$
+
 If you are lucky, I will give you numbers such that $C-At$ is already unit length, so you won't have to normalize $F$. Otherwise, you must divide the components of $F$ by the magnitude of $F$ to normalize it.
 
 Compute:
@@ -184,3 +187,4 @@ Compute:
 
 
 * $v_c =$
+
