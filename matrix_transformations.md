@@ -10,36 +10,42 @@ Given:
 ### 1) Build the individual transform matrices
 
 Construct the relevant 4x4 transform matrices:
+
 $$\mathbf{A}_{S}=\left(\begin{array}{cccc}
 s_{x} & 0 & 0 & 0\\
 0 & s_{y} & 0 & 0\\
 0 & 0 & s_{z} & 0\\
 0 & 0 & 0 & 1
 \end{array}\right)$$
+
 $$\mathbf{A}_{yaw}=\left(\begin{array}{cccc}
 \cos\theta & 0 & \sin\theta & 0\\
 0 & 1 & 0 & 0\\
 -\sin\theta & 0 & \cos\theta & 0\\
 0 & 0 & 0 & 1
 \end{array}\right)$$
+
 $$\mathbf{A}_{pitch}=\left(\begin{array}{cccc}
 1 & 0 & 0 & 0\\
 0 & \cos\theta & -\sin\theta & 0\\
 0 & \sin\theta & \cos\theta & 0\\
 0 & 0 & 0 & 1
 \end{array}\right)$$
+
 $$\mathbf{A}_{roll}=\left(\begin{array}{cccc}
 \cos\theta & -\sin\theta & 0 & 0\\
 \sin\theta & \cos\theta & 0 & 0\\
 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 1
 \end{array}\right)$$
+
 $$\mathbf{A}_{T}=\left(\begin{array}{cccc}
 1 & 0 & 0 & t_{x}\\
 0 & 1 & 0 & t_{y}\\
 0 & 0 & 1 & t_{z}\\
 0 & 0 & 0 & 1
 \end{array}\right)$$
+
 You can skip any matrix that isn't relevant to your problem.
 
 ### 2) Construct the model matrix
@@ -175,5 +181,6 @@ You will notice that the fourth component ($w$) of $v_c$ is **not 1**, which is 
 $$v_c = \frac{v_c}{w}$$
 
 Compute:
+
 
 * $v_c =$
