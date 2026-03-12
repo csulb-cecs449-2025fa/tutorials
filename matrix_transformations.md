@@ -121,7 +121,7 @@ F=normalize\left(C-At\right)
 $$
 
 $$
-R=cross(F, \left<0,1,0\right>)
+R=cross(\left<0,1,0\right>, F)
 $$
 
 $$
@@ -187,4 +187,5 @@ Compute:
 
 
 * $v_c =$
+
 
