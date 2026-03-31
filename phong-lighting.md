@@ -75,6 +75,17 @@ Diffuse color (per channel):
 $C_{total} = C_{diff} + C_{spec}$
 $= (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm})$
 
+This is the **total color/intensity** of light hitting the fragment.
+
+---
+
+## 6) Account for texture/color
+
+$FragColor = C_{total} \cdot C_{surface}$
+$= (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}) \cdot (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm})$
+
+$C_{surface}$ is the color of the surface in full white light, typically sampled from a texture image.
+
 ---
 
 ## 6) Practice problems 
@@ -84,13 +95,15 @@ $= (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm})$
 * $P=(1,2,3)$, $\vec{N}=(0,1,0)$, $C=(1,2,8)$, $L_{pos}=(4,3,6)$
 * $k_d=0.8$, $k_s=0.2$, $\alpha=32$
 * $I_L=(0.9,0.9,0.9)$
+* C_{surface} = (1, 0.9, 0.2)
 
-Compute: $C_{diff}$, $C_{spec}$, $C_{total}$. 
+Compute: $C_{diff}$, $C_{spec}$, $C_{total}$, $FragColor$. 
 
 **Problem B (Phong)**
 
 * $P=(-2,0,1)$, $\vec{N}=(0,0,1)$, $C=(0,0,5)$, $L_{pos}=(3,4,2)$
 * $k_d=0.6$, $k_s=-.9$, $\alpha=4$
 * $I_L=(1.0,1.0,0.8)$
+* C_{surface} = (0.2, 0.1, 0.7)
 
-Compute: $C_{diff}$, $C_{spec}$, $C_{total}$.
+Compute: $C_{diff}$, $C_{spec}$, $C_{total}$, $FragColor$.
