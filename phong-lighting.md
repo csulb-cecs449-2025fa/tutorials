@@ -86,6 +86,8 @@ $= (\rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}, \rule{1cm}{0.15mm}) \cdot (\rule{1cm
 
 $C_{surface}$ is the color of the surface in full white light, typically sampled from a texture image.
 
+This is component-wise vector multiplication, not a dot product or cross product.
+
 ---
 
 ## 6) Practice problems 
